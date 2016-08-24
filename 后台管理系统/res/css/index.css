@@ -1,0 +1,207 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{ font:16px/30px "Microsoft YaHei","微软雅黑"; color:#555; background-color:#fff; word-wrap:break-word;}
+*{ margin:0; padding:0;}
+ul,ol,li{ list-style:none outside;}
+a{ color:#666; text-decoration:none;}
+a:hover{ text-decoration:none;}
+h1,h2,h3,h4,h5,h6{ font-size:1em; line-height:normal;}
+.left{ float:left;}
+.right{ float:right;}
+.center{ text-align:center;}
+.tx_l{ text-align:left;}
+.tx_r{ text-align:right;}
+.tx_2{ text-indent:2em;}
+.bold{ font-weight:bold;}
+.nowrap{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+img{ border:medium none; vertical-align:middle;}
+textarea{ resize:none; vertical-align:middle;}
+input,button,select,textarea{ border:medium none; background:none; outline:none; font:1em/normal "Microsoft YaHei","微软雅黑";}
+.btn{ cursor:pointer; overflow:visible;}
+table{ border-collapse:collapse;}
+.clear{ clear:both;}
+.clearfix:after{ content:"."; display:block; clear:both; height:0; line-height:0; font-size:0; visibility:hidden;}
+
+body .mar_0{ margin-right:0;}
+label{ float:left; line-height:38px; text-align:right; color:#000;}
+.txt{ float:left; height:36px; border:1px solid #d4dce9; line-height:36px; padding:0 10px; color:#000;}
+select{ border:1px solid #d4dce9; padding:7px 6px 6px; *margin-top:6px;}
+input[type="radio"],input[type="checkbox"]{ float:left; margin:13px 3px 0 0;}
+
+
+/*分页样式*/
+.page{ height:30px; color:#000; font-size:13px; padding-top:6px;}
+.page .btn{ width:13px; height:13px; background:url(../images/flip_btn.jpg) no-repeat; float:left; margin:8px 5px;}
+.page .first_btn{ background-position:0 0;}
+.page .prev_btn{ background-position:-23px 0;}
+.page .next_btn{ background-position:-58px 0;}
+.page .last_btn{ background-position:-78px 0;}
+.page p{ margin:0 18px;}
+.page span{ display:inline-block; width:37px; text-align:center; height:13px; line-height:13px; border:1px solid #d4dce9; padding:0 5px; font-size:12px; margin:0 6px;}
+
+
+/*期刊网站管理*/
+.main{ width:1350px; margin:0 auto;}
+.header{ height:85px; line-height:85px; background:url(../images/header_bg.jpg) no-repeat;}
+.cont_body{ width:1350px;}
+.l_tit{ float:left; height:85px; font-size:20px; color:#fff; margin-left:30px;}
+.l_tit span{ font-size:36px; margin-right:8px;}
+.r_exit{ float:right; margin-right:50px; color:#fff;}
+.r_exit span{ color:#ff8500; padding-left:24px; background:url(../images/user.jpg) no-repeat left center;}
+.r_exit a{ color:#fff;}
+.r_exit a:hover{ text-decoration:underline;}
+.cont_top{ height:20px; background:url(../images/con_top.jpg) repeat-x; margin-bottom:2px;}
+.footer{ text-align:center;}
+.link{ height:30px; line-height:30px; background-color:#264b94; color:#fff; font-size:13px;}
+.link a{ color:#fff; margin-right:5px;}
+.copyright{ height:46px; padding-top:8px; font-size:12px; color:#424242;}
+.l_box{ width:200px; float:left; background:url(../images/l_bg.jpg) repeat-y; min-height:800px;}
+.l_box ul{ width:193px; border-bottom:1px solid #6182c1;}
+.l_box ul li{ height:51px; line-height:51px; border:1px solid #6182c1; border-bottom:0; background-color:#496fb7; font-size:18px;}
+.l_box ul li.cur{ background:url(../images/a_cur.jpg) no-repeat; font-weight:bold; border:0;}
+.l_box ul li a{ display:block; height:51px; color:#fff; padding-left:60px; background:url(../images/icon.png) no-repeat;}
+.l_box ul li a.icon1{ background-position:30px 16px;}
+.l_box ul li a.icon2{ background-position:30px -29px;}
+.l_box ul li a.icon3{ background-position:30px -70px;}
+.l_box ul li a.icon4{ background-position:30px -110px;}
+.l_box ul li a.icon5{ background-position:30px -154px;}
+.l_box ul li a.icon6{ background-position:30px -197px;}
+.l_box ul li a.icon7{ background-position:30px -236px;}
+.l_box ul li a.icon8{ background-position:30px -282px;}
+.l_box ul li a.icon9{ background-position:30px -330px;}
+
+.r_box{ width:1064px; float:right; border-top:2px solid #f4f4f4; padding:0 46px 0 40px;}
+.top_tit{ font-size:18px; color:#010101; padding:14px 0 11px;}
+.operate_box{ height:29px;}
+.curd{ float:left; height:29px;}
+.curd .btn{ width:80px; height:29px; background:url(../images/curd.jpg) no-repeat 0 0; float:left; margin-right:12px;}
+.curd .add_btn{ background-position:0 0;}
+.curd .check_btn{ background-position:-91px 0;}
+.curd .delete_btn{ background-position:-184px 0;}
+.curd .modify_btn{ background-position:-276px 0;}
+.search_box{ float:left;}
+.search_box input[type="text"]{ width:199px; height:27px; line-height:27px; border:1px solid #e0e0e0; padding:0 10px; float:left; font-size:14px;}
+.search_box .btn{ width:70px; height:29px; background-color:#496fb7; color:#fff; float:left;}
+.tb_box{ border:1px solid #e8e8e8; min-height:622px; margin:16px 0;}
+.tb_box table{ width:1062px;}
+.tb_box tr th{ height:28px; line-height:28px; background-color:#527bba; color:#fff; padding:0 10px; font-weight:normal;}
+.tb_box tr td{ height:36px; line-height:36px; padding:0 10px;}
+.tb_box tr.even_line td{ background-color:#fbfbfb;}
+.tb_box tr td p{ width:476px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+
+
+/*期刊网站管理-用户管理-用户设置*/
+.cover_box{ width:100%; height:100%; position:fixed; top:0; left:0; background-color:#061838; opacity:0.55; filter:alpha(opacity=55);}
+.pop_box{ width:830px; border:1px solid #264b94; background-color:#264b94; position:absolute; top:100px; left:50%; margin-left:-415px;}
+.pop_top{ height:40px; color:#fff;}
+.pop_top h4{ float:left; font-size:20px; font-weight:normal; line-height:40px; color:#fff; margin-left:16px;}
+.pop_top input{ float:right; width:40px; height:40px; color:#fff; margin-right:20px;}
+.pop_cont{ background-color:#fff;}
+
+.userSet_popBox .pop_cont{ padding:28px 43px 33px;}
+.info_box{ border:1px solid #d4dce9; margin-bottom:20px; position:relative;}
+.info_box h4{ width:70px; height:25px; line-height:25px; font-size:14px; color:#fff; background-color:#6488cd; text-align:center; position:absolute; top:-10px; left:20px;}
+.info_body{ margin:28px 0 17px 52px; color:#000;}
+.pop_cont label{ width:80px;}
+.pop_cont .txt{ width:108px;}
+.pop_cont .wid466{ width:466px;}
+.pop_cont .wid236{ width:236px;}
+.pop_cont select{ width:130px;}
+.pop_cont .one_input{ height:38px; float:left; margin-right:20px;}
+.pop_cont .info_line{ height:38px; padding-bottom:8px;}
+.one_input span,.intro_line span{ float:left; line-height:38px; margin-right:38px;}
+.btn_box .btn{ width:142px; height:49px; font-size:20px; background:url(../images/btn.jpg) no-repeat; margin:0 7px;}
+.btn_box .btn1{ color:#fff; background-position:0 0;}
+.btn_box .btn2{ color:#000; background-position:-160px 0;}
+.three_input .one_input{ width:210px;}
+
+/*期刊网站管理-权限管理*/
+.tb_box2 tr td{ font-size:14px;}
+.authoritySet_popBox .pop_cont{ padding:22px 88px 38px;}
+.authoritySet_popBox .btn_box{ padding-top:155px;}
+
+
+/*一个期刊网站管理*/
+.webkit_intro{ padding:47px 0; color:#000;}
+.menu_tit{ font-size:19px; color:#010101; padding-bottom:5px; border-bottom:1px solid #cbd4e5;}
+.intro_body{ padding:42px 102px 12px;}
+.intro_line,.download_line{ padding-bottom:14px;}
+.webkit_intro .intro_line,.webkit_intro .download_line{ width:860px;}
+.intro_line label,.download_line label{ width:100px;}
+.intro_line .txt{ width:440px;}
+.intro_line .wid194{ width:194px;}
+.intro_line .wid216{ width:216px;}
+.intro_line .wid459{ width:459px;}
+.download_line .wid437{ width:437px;}
+.download_line{ position:relative;}
+.download_line .btn{ width:88px; float:left; height:38px; color:#000; background-color:#e9eff9; margin-left:10px;}
+.download_line input[type="file"]{ width:88px; height:38px; opacity:0; filter:alpha(opacity=0); position:absolute; top:0; left:569px; cursor:pointer;}
+.intro_line .nav_list{ width:760px; float:left;}
+.nav_list span{ display:block; line-height:36px; text-align:center;}
+.nav_list span,.nav_list .btn{ float:left; width:142px; height:36px; border:1px solid #e5edfa; color:#264b94; background-color:#f2f4f8; margin-right:8px; margin-bottom:14px;}
+.nav_list .btn{ font-size:34px; line-height:20px; padding-bottom:5px;}
+.index_list span{ margin-bottom:0;}
+.webkit_intro .btn_box{ padding-left:202px;}
+
+/*一个期刊网站管理-编辑部公告*/
+.page_body{ width:1064px; margin:0 auto; padding:48px 0;}
+.msg_body{ padding:20px 150px;}
+.msg_cont{ min-height:490px;}
+.sml_tit{ color:#000; margin:15px 0 2px;}
+.msg_cont .tb_box{ min-height:342px;}
+.msg_one{ width:764px; margin-bottom:22px;}
+.msg_one .txt{ width:660px;}
+.msg_one textarea{ width:660px; height:390px; border:1px solid #d4dce9; padding:5px 10px;}
+
+/*一个期刊网站管理-作者下载中心*/
+.msg_body .download_line{ width:764px;}
+
+/*一个期刊网站管理-过刊浏览*/
+.upload_btn{ padding-top:22px;}
+.upload_btn .btn{ width:142px; height:49px; background:url(../images/upload_btn.jpg) no-repeat; font-size:20px; color:#fff;}
+.tb_box .progress_bar{ width:130px; height:16px; border:1px solid #e2e2e2; float:left;}
+.tb_box .yellow_bar{ display:block; height:16px; background-color:#ff8500; float:left;}
+.num{ float:left; line-height:18px; margin-left:6px;}
+.tb_box td a{ color:#0036ff;}
+.msg_cont .page{ padding-top:15px;}
+
+/*一个期刊网站管理-上传弹窗*/
+.upload_popBox .pop_cont{ padding:40px 96px;}
+.upload_popBox .download_line{ width:638px;}
+.upload_popBox label{ width:80px;}
+.upload_popBox select{ width:200px;}
+.upload_popBox .txt{ width:430px;}
+
+
+/*一个期刊网站管理-申请审稿人*/
+.apply_body textarea{ width:658px; height:160px; float:left;}
+.apply_body .msg_one{ width:800px;}
+
+
+/*一个期刊网站管理-编辑管理-新增（弹窗）*/
+.memberInfo_popBox{ width:630px; margin-left:-316px;}
+.memberInfo_popBox .pop_cont{ padding:40px 156px;}
+.memberInfo_popBox label{ width:50px;}
+.memberInfo_popBox select{ width:254px;}
+.memberInfo_popBox .btn_box{ padding-top:36px;}
+.member_info{ padding-left:7px;}
+
+
+/*一个期刊网站管理-支付绑定*/
+.bound_box{ padding:47px 0;}
+.pay_way{ width:980px; margin-top:20px;}
+.one_way{ background-color:#e7e7e7; width:180px; height:57px; border:1px solid #d0d0d0; margin-right:20px; text-align:center; float:left; margin-bottom:-1px;}
+.current_way{ background-color:#fff; height:58px; border-bottom:none;}
+.one_way a{ background:url(../images/pay_icon.png) no-repeat; display:inline-block; height:57px; line-height:57px; font-size:17px;}
+.one_way a.zhifubao{ background-position:0 16px; padding-left:36px;}
+.one_way a.weixin{ background-position:0 -28px; padding-left:36px;}
+.one_way a.unionpay{ background-position:0 -71px; padding-left:45px;}
+.pay_box{ border:1px solid #d0d0d0; font-family:宋体; padding:50px 0 100px 25px;}
+.pay_box .one_input{ width:953px; height:44px; line-height:44px; margin-bottom:15px;}
+.pay_box .one_input label{ width:100px; line-height:44px; text-align:right; float:left; color:#4e4e4e; font-size:18px; padding-right:12px;}
+.pay_box .one_input input{ width:259px; height:42px; line-height:42px; padding:0 10px; border:1px solid #d5ddea; font-size:16px; color:4e4e4e;}
+.pay_box .pay_btn input{ background:url(../images/pay_btn.jpg) no-repeat; width:281px; height:48px; color:#fff; line-height:48px; margin-left:112px; font-size:18px;}
+.pay_select{ height:38px; color:#010101; font-size:18px; padding:17px 0 8px;}
+.pay_select label{ padding-right:20px;}
+.pay_select span{ line-height:38px; float:left; margin-right:30px;}
